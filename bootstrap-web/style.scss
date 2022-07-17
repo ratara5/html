@@ -1,0 +1,12 @@
+$primary: orange;
+$danger: red;
+
+
+$theme-colors: (
+  "primary": $primary,
+  "danger": $danger
+);
+
+/*Cómo se hace el merge?*/
+
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
